@@ -2,7 +2,7 @@ import  axios from "axios";
 import {TUser} from "../interface";
 
 
-const server_Mongo_Url = "http://localhost:5080"
+const server_Mongo_Url = "https://portofolio-db.khalil-dev.me"
 
 
 const userRegister = (user:TUser)=>{
