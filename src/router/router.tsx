@@ -21,7 +21,7 @@ const router = createBrowserRouter([
                 element:<AuthPage/>
             },
             {
-                path: "/user/verify_account/:token",
+                path: "/verify_account/:token",
                 element: <VerifyAccount />,
               },
              
