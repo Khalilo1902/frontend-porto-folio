@@ -53,7 +53,7 @@ const Login = ({ showRegister, setShowRegister }: ILoginProps) => {
     validationSchema: formSchema,
   });
   return (
-    <div className="flex overflow-hidden w-8/12 bg-white rounded-xl mx-auto shadow-lg">
+    <div className="flex overflow-hidden lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg">
       <div className="hidden lg:flex w-1/2 bg-[url('/Register-Background.png')]">
         <div className=" flex items-center justify-center px-2 flex-col">
           <h1 className="text-white font-lovers text-7xl">

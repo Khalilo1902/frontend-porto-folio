@@ -46,7 +46,7 @@ const Register = ({showRegister, setShowRegister}: IRegisterProps) => {
 
     return (
 
-        <div className="flex items-center justify-center overflow-hidden w-8/12 bg-white rounded-xl mx-auto shadow-lg">
+        <div className="flex items-center justify-center overflow-hidden lg:w-8/12 bg-white rounded-xl mx-auto shadow-lg">
             <div className="hidden lg:flex w-1/2 bg-[url('/Register-Background.png')]">
                 <div className=" flex items-center justify-center px-2 flex-col">
                     <h1 className="text-white font-lovers text-7xl">Welcom to the site</h1>
