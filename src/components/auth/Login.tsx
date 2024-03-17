@@ -54,7 +54,7 @@ const Login = ({ showRegister, setShowRegister }: ILoginProps) => {
   });
   return (
     <div className="flex overflow-hidden w-8/12 bg-white rounded-xl mx-auto shadow-lg">
-      <div className="w-1/2 bg-[url('/Register-Background.png')]">
+      <div className="hidden lg:flex w-1/2 bg-[url('/Register-Background.png')]">
         <div className=" flex items-center justify-center px-2 flex-col">
           <h1 className="text-white font-lovers text-7xl">
             Welcom to the site
@@ -70,7 +70,7 @@ const Login = ({ showRegister, setShowRegister }: ILoginProps) => {
         </div>
       </div>
 
-      <div className=" w-1/2 py-16 px-12 bg-gradient-to-r from-blue-400 to-red-200 ">
+      <div className=" w-full lg:w-1/2 py-16 px-12 bg-gradient-to-r from-blue-400 to-red-200 ">
         <h1 className="text-5xl font-bold text-white">Login</h1>
         <form
           className="space-y-6 text-white mt-5"

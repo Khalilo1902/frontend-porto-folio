@@ -46,8 +46,8 @@ const Register = ({showRegister, setShowRegister}: IRegisterProps) => {
 
     return (
 
-        <div className="flex overflow-hidden w-8/12 bg-white rounded-xl mx-auto shadow-lg">
-            <div className="w-1/2 bg-[url('/Register-Background.png')]">
+        <div className="flex items-center justify-center overflow-hidden w-8/12 bg-white rounded-xl mx-auto shadow-lg">
+            <div className="hidden lg:flex w-1/2 bg-[url('/Register-Background.png')]">
                 <div className=" flex items-center justify-center px-2 flex-col">
                     <h1 className="text-white font-lovers text-7xl">Welcom to the site</h1>
                     <p className="text-white mt-5 font-lovers text-4xl"> "Mit nur einem Klick können Sie Teil
@@ -59,13 +59,13 @@ const Register = ({showRegister, setShowRegister}: IRegisterProps) => {
                     </p>
                 </div>
             </div>
-            <div className="w-1/2 py-16 px-12">
+            <div className="  w-full lg:w-1/2 py-16 px-12">
                 <h2 className="text-3xl mb-4">Register</h2>
                 <p>Create your account. It's free and only take a few second</p>
                 <form className="mt-5"
                 onSubmit={formik.handleSubmit}
                 >
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="grid grid-cols-2 gap-5 w-full">
                         <input className="border border-gray-400 py-1 px-2 rounded-lg" type="text"
                                placeholder="firstName"
                                name="firstName"
